@@ -1,0 +1,33 @@
+{
+  "name": "fastaf",
+  "version": "1.0.0",
+  "description": "A framework allowing frontend clients to persistently connect to a SQL database and execute native SQL queries using websockets, by compiling SQL to a safe, JWT user-authenticated PostgREST query.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachblume/fastaf.git"
+  },
+  "keywords": [
+    "websocket",
+    "sql",
+    "fast",
+    "database",
+    "query",
+    "frontend",
+    "client",
+    "postgrest",
+    "postgres"
+  ],
+  "author": "Zach Blume",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachblume/fastaf/issues"
+  },
+  "homepage": "https://github.com/zachblume/fastaf#readme",
+  "dependencies": {
+    "ws": "^8.12.0"
+  }
+}
